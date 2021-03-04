@@ -1,0 +1,61 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "hello-express"
+      version: "0.0.1"
+      description: "CodeWork v12 Boş Altyapı"
+      main: "bot.js"
+      scripts: 
+        start: "node bot.js"
+      dependencies: 
+        canvacord: "^5.1.0"
+        canvas: "^2.6.1"
+        common-tags: "^1.8.0"
+        croxydb: "0.0.7"
+        discord.js: "^12.2.0"
+        express: "^4.17.1"
+        fs: "^0.0.2"
+        join: "^3.0.0"
+        moment: "^2.29.1"
+        moment-duration-format: "^2.3.2"
+        ms: "^2.1.2"
+        narcos-db: "^4.0.10"
+        quick.db: "^7.1.2"
+        request: "^2.88.2"
+        simple-youtube-api: "^5.2.1"
+        ytdl-core: "^4.4.5"
+        ytdl-core-discord: "^1.2.5"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      gitHead: "c12241dc4cc3db25684c17b6fab25ee0c7479348"
+      readme: "ERROR: No README data found!"
+      _id: "hello-express@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving canvacord that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/92da6929-8e33-4cc4-b8d4-759dcc7081ae/node_modules/canvacord"
+      dest: "/rbd/pnpm-volume/92da6929-8e33-4cc4-b8d4-759dcc7081ae/node_modules/.ignored/canvacord"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/92da6929-8e33-4cc4-b8d4-759dcc7081ae/node_modules/canvacord' -> '/rbd/pnpm-volume/92da6929-8e33-4cc4-b8d4-759dcc7081ae/node_modules/.ignored/canvacord'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/92da6929-8e33-4cc4-b8d4-759dcc7081ae/node_modules/canvacord' -> '/rbd/pnpm-volume/92da6929-8e33-4cc4-b8d4-759dcc7081ae/node_modules/.ignored/canvacord'"
